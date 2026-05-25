@@ -38,7 +38,7 @@ export async function POST(req: Request, ctx: RouteCtx) {
     correctMap[q.id] = correct.id;
     if (answerByQuestion.get(q.id) === correct.id) score += 1;
   }
-  const total = test.questions.length;
+  const total = answers.length;
 
   if (!practice) {
     await prisma.attempt.create({
