@@ -1,0 +1,36 @@
+{
+  "name": "World Capitals (sample)",
+  "description": "A short sample test you can upload to try the JSON import.",
+  "timeLimitSec": 120,
+  "questions": [
+    {
+      "prompt": "Capital of France?",
+      "explanation": "Paris has been the capital since 987 AD.",
+      "choices": [
+        { "text": "Paris", "isCorrect": true },
+        { "text": "Lyon", "isCorrect": false },
+        { "text": "Nice", "isCorrect": false },
+        { "text": "Marseille", "isCorrect": false }
+      ]
+    },
+    {
+      "prompt": "Capital of Japan?",
+      "choices": [
+        { "text": "Osaka", "isCorrect": false },
+        { "text": "Kyoto", "isCorrect": false },
+        { "text": "Tokyo", "isCorrect": true },
+        { "text": "Nagoya", "isCorrect": false }
+      ]
+    },
+    {
+      "prompt": "Capital of Australia?",
+      "explanation": "Common trap — it's Canberra, not Sydney.",
+      "choices": [
+        { "text": "Sydney", "isCorrect": false },
+        { "text": "Melbourne", "isCorrect": false },
+        { "text": "Canberra", "isCorrect": true },
+        { "text": "Perth", "isCorrect": false }
+      ]
+    }
+  ]
+}
